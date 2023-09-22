@@ -9,16 +9,17 @@ public class Homework4_3 {
 
         Scanner scanner = new Scanner(System.in);
         int sum = 0;
-        int num;
-        System.out.println("Fill number 0");
+        int input;
+
 
         do {
-            num = scanner.nextInt();
-            sum += num;
-        } while (num != 0);
+            System.out.println("Fill number 0");
+            input = scanner.nextInt();
+            sum += input;
+        } while (input != 0);
 
 
-        System.out.println("sum " + sum);
+        System.out.println("sum :" + sum);
     }
 }
 

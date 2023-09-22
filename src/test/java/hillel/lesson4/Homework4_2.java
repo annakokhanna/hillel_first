@@ -24,6 +24,7 @@ public class Homework4_2 {
                 if (i == j) {
                     matrix[i][j] = number;
                     number++;
+                    sum += matrix[i][j];
                 }
                 else {
                     matrix[i][j] = 0;

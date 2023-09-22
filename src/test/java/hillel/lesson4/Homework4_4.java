@@ -8,12 +8,12 @@ public class Homework4_4 {
 
         Scanner scanner = new Scanner(System.in);
 
-        int password;
-        System.out.println(" Fill password ");
-
+        int UserPassword;
+        int ExpectedPassword = 8921824;
         do {
-            password = scanner.nextInt();
-        } while (password != 98999);
-        System.out.println(password);
+            System.out.println(" Fill password ");
+            UserPassword = scanner.nextInt();
+        } while (UserPassword != ExpectedPassword);
+        System.out.println(" Login succesful!");
     }
 }
