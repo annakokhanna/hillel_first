@@ -1,6 +1,6 @@
 package hillel.lesson2.homework2;
 
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
 public class Homework2 {
 
