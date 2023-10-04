@@ -1,4 +1,4 @@
-package hillel.lesson2;
+package hillel.lesson2.homework2;
 
 import org.junit.jupiter.api.Test;
 
