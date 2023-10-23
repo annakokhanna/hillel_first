@@ -1,9 +1,9 @@
-package hillel.lesson7.homework7;
+package hillel.lesson7.homework7.Calculator;
 
 import java.util.Scanner;
 
 
-public class Calculator {
+public class Calculator_1 {
 
     static Scanner scanner = new Scanner(System.in);
     static double result;
@@ -35,4 +35,5 @@ public class Calculator {
         }
         return result;
     }
+
 }
