@@ -11,8 +11,7 @@ public class RectangleTest {
         rectangle.height = 4;
         rectangle.width = 2;
 
-        double perimeter = 2 * rectangle.height + 2 * rectangle.width;
-        System.out.println(" Perimeter = " + perimeter + "cm2");
+        rectangle.calculatePerimeter();
 
 
         Rectangle rectangle2;
@@ -21,9 +20,7 @@ public class RectangleTest {
         rectangle2.height = 4;
         rectangle2.width = 3;
 
-        double area = rectangle2.height * rectangle2.width;
-        System.out.println(" Area = " + area + " cm2");
+        rectangle2.calculateArea();
 
     }
-
 }
