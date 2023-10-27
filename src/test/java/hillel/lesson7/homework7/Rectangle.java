@@ -9,13 +9,11 @@ public class Rectangle {
     public Rectangle() {
         this.width = 0;
         this.height = 0;
-
     }
 
     public Rectangle(int width, int height) {
         this.width = width;
         this.height = height;
-
     }
 
     public int calculatePerimeter() {
