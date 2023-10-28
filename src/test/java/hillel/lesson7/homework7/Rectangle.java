@@ -17,13 +17,10 @@ public class Rectangle {
     }
 
     public int calculatePerimeter() {
-        double perimeter = 2 * height + 2 * width;
-        System.out.println(" Perimeter = " + perimeter + " cm2");
-        return 0;
+        return 2 * height + 2 * width;
     }
 
-    public void calculateArea() {
-        double area = height * width;
-        System.out.println(" Area = " + area + " cm2");
+    public int calculateArea() {
+        return height * width;
     }
 }
