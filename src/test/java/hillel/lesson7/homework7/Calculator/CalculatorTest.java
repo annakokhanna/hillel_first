@@ -25,7 +25,7 @@ public class CalculatorTest {
                 result = calculator.add(num1, num2);
                 break;
             case "-":
-                result = calculator.subtract(num1, num2);
+                result = calculator.minus(num1, num2);
                 break;
             case "*":
                 result = calculator.multiply(num1, num2);
